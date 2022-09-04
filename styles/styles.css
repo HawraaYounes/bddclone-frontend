@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    height: 100%;
+  }
+  
+  /* Nav Bar*/
+  
+  .top-nav {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .container {
+    padding: 0 10vh;
+    width: 100%;
+  } 
+  .links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .links > li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .links > li:first-child {
+    text-decoration: underline;
+  }
+  .links > li:last-child {
+    margin-right: 0px;
+  }
+  .btn-nav{
+    background-color: #0078BE;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 15px;
+  }
+  /* Hero */
+
+.hero {
+    background: url("/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+  }
+  .hero-content {
+    padding: 40vh 0 10vh 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero-paragraph {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+   /* Foundations */
+   .bdd-foundations{
+    background-color: rgb(224, 222, 222);
+    padding: 0 !important;
+    width: 100%;
+    text-align: center;
+   }
+   .foundations-part{
+    margin: 50px 10px;
+    padding: 20px;
+    border: 5px;
+    color: gray;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+   }
+   .bdd-foundations-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13vw;
+    text-align: center;
+    background-color: rgb(224, 222, 222);
+  } 
+  .vision{
+    background: url("/images/academyBackground.jpg");
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+  }
+  .video-image{
+    margin:20px
+  }
+  .join{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 5% 0%;
+  }
+  .join p{
+    font-size: 40px;
+    font-weight: bold;
+  } 
+  .join-div{
+    margin: 3% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .join-div div{
+    width: 20%;
+  }
+  .join-div div img{
+    width: 100%;
+  }
+  .bg-reverse{
+    background-image: url("./images/bg-icon-reverse.png");
+
+  }
+  /* Media Query */
+
+@media only screen and (max-width: 800px) {
+  .mobile {
+    flex-direction: column;
+  }
+
+  .media-images > img {
+    width: 100%;
+  }
+
+  .program-images > div {
+    width: 100%;
+  }
+}
